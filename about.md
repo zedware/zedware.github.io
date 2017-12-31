@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+A software engineer working on database and storage system.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Working on database and file system, writing code with C, C++, Java, Go etc.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[zedware@gmail.com](mailto:zedware@gmail.com)
