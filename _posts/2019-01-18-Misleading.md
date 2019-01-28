@@ -1,4 +1,7 @@
-# 数据库和存储领域一些容易混淆的概念和术语
+---
+layout: post
+title: 数据库和存储领域一些容易混淆的概念和术语
+---
 
 TPS/QPS, tpmC/tpm, Raft/Paxos, Distributed Transaction, 
 
