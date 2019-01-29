@@ -3,6 +3,8 @@ layout: post
 title: Early Lock Release
 ---
 
+Early lock release is a famous optimization in database field, and it was mentioned in recent papers (again) on performance improvement. This blog writes up the basic idea of ELR, and the pratice in MySQL/InnoDB world. Finally, it provides more interesting references on the topic.
+
 # Table of Contents
 
 1.  [Early Lock Release 的原理](#org3357c0c)
@@ -19,8 +21,6 @@ title: Early Lock Release
     6.  [InnoDB 的性能测试](#orgbfbd3d9)
         1.  [修改 MySQL](#orgb14f2ed)
         2.  [性能测试](#org656e46c)
-
-
 
 <a id="org3357c0c"></a>
 
