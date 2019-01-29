@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: The Magic Thing Happens
+name: The Magic
 
 # Short bio or description (displayed in the header)
 description: Software Engineer
@@ -19,14 +19,14 @@ avatar: https://avatars3.githubusercontent.com/u/4780969?s=40&v=4
 footer-links:
   dribbble:
   email: zedware@gmail.com
-  facebook:
+  facebook:zedware@gmail.com
   flickr:
   github: zedware/zedware.github.io
   instagram:
-  linkedin: 
+  linkedin: zedware@gmail.com
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: 
+  twitter: zedware@gmail.com
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
