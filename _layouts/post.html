@@ -15,3 +15,7 @@ layout: default
 
   {% include disqus.html %}
 </article>
+
+{% if site.disqus.shortname %}
+  {% include comments.html %}
+{% endif %}
