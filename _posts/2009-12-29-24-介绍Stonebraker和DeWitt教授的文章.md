@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 介绍Stonebraker和DeWitt教授的文章：MapReduce: A major step backwards
+title: 介绍Stonebraker和DeWitt教授的文章
 original: https://blog.csdn.net/zedware/article/details/5094852
 ---
 *以下引用的两篇文章作者为：David J. DeWitt and Michael Stonebraker* 
