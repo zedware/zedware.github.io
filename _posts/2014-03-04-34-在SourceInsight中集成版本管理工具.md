@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [朝花夕拾]在SourceInsight中集成版本管理工具
+title: 在SourceInsight中集成版本管理工具
 original: https://blog.csdn.net/zedware/article/details/20487555
 ---
 在SourceInsight中集成版本管理工具
