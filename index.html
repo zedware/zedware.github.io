@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="posts">
-  {% for post in site.posts limit:10 %}
+  {% for post in site.posts limit:7 %}
     <article class="post">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
@@ -18,7 +18,7 @@ layout: default
   
   <article class="archive-link">
   
-    <h2>Read older posts <a href="{{ site.baseurl }}/archive">classified by date</a>.</h2>
+    <h2>Read older posts <a href="{{ site.baseurl }}/archive">sorted by date</a>.</h2>
     
   </article>
 </div>
