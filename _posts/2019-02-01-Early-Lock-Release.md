@@ -99,8 +99,7 @@ Facebook 曾经在 MySQL 的 Server 层做过一个 ELR 的实现<sup><a id="fnr
     trx_flush_log_if_needed() -> trx_flush_log_if_needed_low() -> log_write_up_to() 
     -> log_write_flush_to_disk_low() -> fil_flush() -> os_file_fsync_posix()
 
-可以看到， fil\_flush() 最后会走到 os\_file\_fsync\_posix()（这里以 Linux 为例）。最后这个函数是 fsync 的包装，而如果 fsync 失败了（例如遇到 EIO 等错误），它会 sleep，然后重试。而由于 fsync 本身实现的问题<sup><a id="fnr.5.100" class="footref" href="#fn.5">5</a></sup>，重试后的 fsync 会成功返回。所以，写日志失败并不会立即 kill 掉 mysqld，因此可能会导致数据错误。
-
+可以看到， fil\_flush() 最后会走到 os\_file\_fsync\_posix()（这里以 Linux 为例）。最后这个函数是 fsync 的包装，而如果 fsync 失败了（例如遇到 EIO 等错误），它会 sleep，然后重试。而由于 fsync 本身实现的问题<sup><a id="fnr.5.100" class="footref" href="#fn.5">5</a></sup>，重试后的 fsync 会成功返回。所以，写日志失败并不会立即 kill 掉 mysqld，因此可能会导致数据错误。后来的 MySQL 版本也已经修复了这个问题。
 
 <a id="org972170a"></a>
 
@@ -163,18 +162,21 @@ Facebook 曾经在 MySQL 的 Server 层做过一个 ELR 的实现<sup><a id="fnr
 
 显然不会有事务 ID 的顺序问题，只需要把 redo 做完就行了。
 
-recv\_recovery\_from\_checkpoint\_start(flushed\_lsn);
-recv\_sys->apply\_log\_recs 恢复过程中会将其设置为 true，之后读页面进来就会做恢复
-recv\_recover\_page 是函数 recv\_recover\_page\_func 的包装
+    recv\_recovery\_from\_checkpoint\_start(flushed\_lsn);
 
-innobase\_start\_or\_create\_for\_mysql -> recv\_recovery\_from\_checkpoint\_start -> recv\_group\_scan\_log\_recs -> recv\_apply\_hashed\_log\_recs 主要路径
-                                   -> recv\_apply\_hashed\_log\_recs -> recv\_recover\_page 次要路径，处理最后一批被 recv\_group\_scan\_log\_recs 读出来的记录
+recv\_sys->apply\_log\_recs 恢复过程中会将其设置为 true，之后读页面进来就会做恢复。recv\_recover\_page 是函数 recv\_recover\_page\_func 的包装。
 
+主要路径：
+
+    innobase\_start\_or\_create\_for\_mysql -> recv\_recovery\_from\_checkpoint\_start -> recv\_group\_scan\_log\_recs -> recv\_apply\_hashed\_log\_recs
+    
+次要路径，处理最后一批被 recv\_group\_scan\_log\_recs 读出来的记录：
+
+                                   -> recv\_apply\_hashed\_log\_recs -> recv\_recover\_page
 
 <a id="orgbfbd3d9"></a>
 
 ## InnoDB 的性能测试
-
 
 <a id="orgb14f2ed"></a>
 
