@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-A software engineer working on database and storage system.
+I am Wenliang Zhang, a software engineer working on database and storage system.
 
 ### More Information
 
