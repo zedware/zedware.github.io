@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introduction to SQL Standard
+title: Introduction to SQL Standard（SQL标准简介）
 ---
 
 This is a brief introduction to SQL standard written in simplified Chinese. It describe the origin of SQL, the process of the standardization, and the history of the SQL standard. It also mentions on how to learn the SQL standard, then comments on the comformance tests of the SQL standard.
