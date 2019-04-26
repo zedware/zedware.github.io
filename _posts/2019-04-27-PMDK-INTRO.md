@@ -1,3 +1,7 @@
+---
+layout: post
+title: PMDK及其应用场景
+---
 PMDK 的全称是 Persistent Memory Development Kit，它包含了 Intel 开发的一系列旨在
 方便非易失性内存的应用开发的函数库和工具。PMDK 是一个还在快速发展变化的新鲜事物，不过版本的迭代更新等很多信息都可以公开看到<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>。需要注意的是，PMDK 的网
 站入口<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup> 和 Git 仓库的入口<sup><a id="fnr.3" class="footref" href="#fn.3">3</a></sup>不是严格的一一对应关系。
