@@ -4,14 +4,14 @@ title: 在SourceInsight中集成版本管理工具
 original: https://blog.csdn.net/zedware/article/details/20487555
 ---
     SourceInsight是一个功能强大的源码阅读和编辑工具，它也支持用户自定义的命令。我们可以选取主菜单中的“View”->“Toolbars”中的“Source Control”和“Build”以便显示版本管理和构建工具栏。
-![si-toolbars.jpg](https://img-blog.csdn.net/20140304215152093?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvemVkd2FyZQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![si-toolbars.jpg](/images/si-toolbars.png "si-toolbars")
     这两个工具栏所对应的命令都是可以定制的，更多的定制命令可以在“Options”->“Custom Commands...”中看到和修改：
-![si-custom-commands.jpg](https://img-blog.csdn.net/20140304215219093?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvemVkd2FyZQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![si-custom-commands.jpg](/images/si-custom-commands.png "si-custom-commands")
     点击其中的“Menu...”按钮还可以将常用的自定义命令放到菜单中，例如我将常用的命令放到了“Help”后的“Work”菜单中：
-![si-menu-assignments.jpg](https://img-blog.csdn.net/20140304215242031?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvemVkd2FyZQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![si-menu-assignments.jpg](/images/si-menu-assignment.png "si-menu-assignment")
    SourceInsight默认集成的版本管理工具是VSS，当然我们也可以进行更多的修改。《[在SourceInsight中集成Visual SourceSafe](http://www.heynew.com/scmchina/topic.asp?TOPIC_ID=1880&FORUM_ID=38&CAT_ID=9)》中有详细的介绍。在按下Ctrl键后点击工具栏或菜单上的项目时都可以快速打开自定义命令的设置窗口，更多的使用方法请参考联机帮助或[在线文档](http://www.sourceinsight.com/docs35/ae1180684.htm)。为了集成Hansky
  Firefly，我们需要修改“Custom Commands”对话框中的“Run：”文本。“Dir:”默认的就是SourceInsight项目的主目录，而Firefly的脚本的工作目录必须为Firefly本地工作区所在的目录。我们将项目的主目录设置为Firefly本地工作区所在的目录，就可以避免修改“Dir:”的设置了。
-![si-checkout.jpg](https://img-blog.csdn.net/20140304215307046?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvemVkd2FyZQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![si-checkout.jpg](/images/si-checkout.png "si-checkout")
     上面写的是“C:\MyScripts\checkout.bat %f”。其中checkou.bat是我们需要编写的批处理文件，“%f”是SourceInsight支持的命令扩展，它会自动替换为当前编辑文件的完整路径（带文件名）。checkout.bat的内容非常简单：
 > @echo off
 > hff edit %1
