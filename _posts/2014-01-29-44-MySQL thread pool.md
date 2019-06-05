@@ -3,12 +3,13 @@ layout: post
 title: MySQL thread pool
 original: https://blog.csdn.net/zedware/article/details/18862813
 ---
-###这是Oracle MySQL的实现：http://mikaelronstrom.blogspot.com/2011/10/mysql-thread-pool-summary.html
-###这是MariaDB的实现：http://worklog.askmonty.org/worklog/Server-BackLog/?tid=246
-###这是Percona的增强：http://www.percona.com/doc/percona-server/5.6/performance/threadpool.html
-###这是一个同学写的代码分析，大部分内容都有了：http://www.cnblogs.com/nocode/archive/2013/05/25/3098317.html
 
-###MySQL Thread Pool: Summary
+### 这是 Oracle MySQL 的实现：http://mikaelronstrom.blogspot.com/2011/10/mysql-thread-pool-summary.html
+### 这是 MariaDB 的实现：http://worklog.askmonty.org/worklog/Server-BackLog/?tid=246
+### 这是 Percona 的增强：http://www.percona.com/doc/percona-server/5.6/performance/threadpool.html
+### 这是一个同学写的代码分析，大部分内容都有了：http://www.cnblogs.com/nocode/archive/2013/05/25/3098317.html
+
+### MySQL Thread Pool: Summary
 A number of blogs have been written with the intent of describing how
 the thread pool manages to solve the requirements of the thread pool.
 
@@ -61,3 +62,4 @@ already started on the connection.
 Solution:
 Allow another query to execute when the executing query in the thread
 group is declared as stalled (after a configurable time).
+
