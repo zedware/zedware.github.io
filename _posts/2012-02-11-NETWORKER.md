@@ -1,10 +1,12 @@
 ---
 layout: post
-title: How to install NetWorker in Linux?
+title: How to install NetWorker on Linux?
 original: https://blog.csdn.net/zedware/article/details/7251614
 ---
-NetBackup和NetWorker是两个主要的企业级备份软件，相比桌面上的软件，安装和使用都有点麻烦。
-这里采用的是一个x86 32bit的NetWorker试用版本。安装/启动GUI的过程中可能会出现一些小问题，如果不幸遇到了，那就一一解决吧。我曾经遇到过Sybase、Java等各模块的问题，通过分析log文件和查找支持文档，最终都解决了。
+
+NetBackup和NetWorker是两个主要的企业级备份软件，相比桌面上的软件，安装和使用都有点麻烦。这里采用的是一个x86 32bit的NetWorker试用版本。安装/启动GUI的过程中可能会出现一些小问题，如果不幸遇到了，那就一一解决吧。我曾经遇到过Sybase、Java等各模块的问题，通过分析log文件和查找支持文档，最终都解决了。
+
+```
 Uninstall:
    rpm -e lgtonmc-7.6.1-1.i686
    rpm -e lgtoserv-7.6.1-1.i686
@@ -14,9 +16,9 @@ Uninstall:
    rpm -e lgtoclnt-7.6.1-1.i686
    rpm -e openmotif-2.3.3-1.i386
    rpm -e libXp-1.0.0-8.1.el5.i386
+```
 
-The packages/rpm can be found:
-    /home/zedware/packages/
+The packages/rpm can be found: /home/zedware/packages/
 
 1. tar -xzf nw76sp1_linux_x86.tar.gz
 2. Download libXp.so.6 from:
@@ -45,16 +47,15 @@ But there are so many ports and processes!
     http://www.tek-tips.com/viewthread.cfm?qid=1518214&page=1
 9. hostname rhel5_x86_nwr
     Add "10.x.x.x rhel5_x86_nwr" to etc/hosts.
-x. reboot
+10. reboot
   Or:
    /usr/sbin/nsrexecd
    /etc/init.d/gst start
-x. Download and install JRE 1.6.
+11. Download and install JRE 1.6.
     j6u26 or above doesn't work for NWR 7.6.2: https://community.emc.com/thread/127491
-x. Install JRE for Firefox: http://it.megocollector.com/?p=832
+12.
     cd /usr/lib/mozilla/plugins
     ln -s /usr/java/default/jre/plugin/i386/ns7/libjavaplugin_oji.so
   Or
     ln -s /jre1.6.0/plugin/i386/ns7/libjavaplugin_oji.so
-x. Start the GUI http://rhel5_x86_nwr:9000
-            
+13. Start the GUI http://rhel5_x86_nwr:9000
