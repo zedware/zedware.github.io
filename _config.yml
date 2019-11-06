@@ -15,6 +15,9 @@ avatar: https://avatars3.githubusercontent.com/u/4780969?s=40&v=4
 # Flags below are optional
 #
 
+# Generated future post and publish it by default.
+future: true
+
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
