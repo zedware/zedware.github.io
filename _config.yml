@@ -16,7 +16,7 @@ avatar: https://avatars3.githubusercontent.com/u/4780969?s=40&v=4
 #
 
 # Generated future post and publish it by default.
-future: true
+future: false
 
 # Includes an icon in the footer for each username you enter
 footer-links:
