@@ -4,7 +4,7 @@ title: MySQL 8.0 直方图的实现与分析
 original: http://mysql.taobao.org/monthly/2016/10/09/
 ---
 
-直方图（Histogram）是 RDBMS 中提供的一种基础的统计信息，最典型的用途是估计查询谓词的选择率，以便选择优化的查询执行计划。常见的直方图种类有：等宽直方图、等高直方图、V-优化的直方图，MaxDiff 直方图等等。RDBMS 产品最初使用的直方图非常简单（只有一个桶），后来逐步演化到等宽直方图、等高直方图等。MariaDB 10.0.2 就已在 server 层实现了直方图功能，参考Take into account the selectivity 和 Histogram based statistics。MySQL 在8.0.0 中也引入了直方图，参考WL#8706和WL8707。
+直方图（Histogram）是 RDBMS 中提供的一种基础的统计信息，最典型的用途是估计查询谓词的选择率，以便选择优化的查询执行计划。常见的直方图种类有：等宽直方图、等高直方图、V-优化的直方图，MaxDiff 直方图等等。RDBMS 产品最初使用的直方图非常简单（只有一个桶），后来逐步演化到等宽直方图、等高直方图等。MariaDB 10.0.2 就已在 server 层实现了直方图功能，参考 Take into account the selectivity 和 Histogram based statistics。MySQL 在8.0.0 中也引入了直方图，参考WL#8706和WL#8707。
 
 # MySQL 直方图的功能
 
