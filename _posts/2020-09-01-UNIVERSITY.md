@@ -54,7 +54,13 @@ title: 高校分数和名次（针对北京考生）
 
 # 高校近三年录取名次
 
-<table border="12" cellspacing="0" cellpadding="6" rules="all" style="border:1px" width="100%">
+<style>
+.tablelines table, .tablelines td, .tablelines th {
+        border: 1px solid black;
+        }
+</style>
+
+<table class="tablelines" cellspacing="0" cellpadding="6" rules="all" width="100%">
 <caption class="t-above"><span class="table-number">Table 1:</span> 近三年各高校在北京的分数线和对应的考生排名（各高校招生老师都会给排名）</caption>
 
 <colgroup>
