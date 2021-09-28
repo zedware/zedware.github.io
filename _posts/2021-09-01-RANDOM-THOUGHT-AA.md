@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Random Thoughts
+title: Random Thoughts AA
 ---
 As the title of the blog suggests, this is a collection of random thoughts. Most
 of them are on software design, especially on database systems. When there are
