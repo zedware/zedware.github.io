@@ -2,6 +2,7 @@
 layout: post
 title: Random Thoughts AB
 ---
+
 As the title of the blog suggests, this is a collection of random thoughts. Most
 of them are on software design, especially on database systems. When there are
 friends or students asking questions, I will write down the interesting ones.

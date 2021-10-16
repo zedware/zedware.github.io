@@ -2,9 +2,13 @@
 layout: post
 title: Random Thoughts AA
 ---
+
 As the title of the blog suggests, this is a collection of random thoughts. Most
 of them are on software design, especially on database systems. When there are
 friends or students asking questions, I will write down the interesting ones.
+
+The content is too much for a single article, so it becomes a series of posts,
+starting from AA, AB and grows toward ZZ.
 
 The topics list in reverse chronological order.
 
