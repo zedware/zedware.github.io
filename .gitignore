@@ -1,9 +1,10 @@
 _site
+.bundle
 .DS_Store
 .jekyll
 .jekyll-metadata
-.bundle
 .sass-cache
+.vscode
 Gemfile
 Gemfile.lock
 node_modules
