@@ -42,7 +42,7 @@ cPosted on November 7, 2019
 从 10.4.6 开始，MariaDB 给命令行工具增加了对应的符号链接，例如：mariadb-admin ->
 mysqladmin。可以看做是 MariaDB 与 MySQL 正式分道扬镳的开始。 git log:
 
-![img](../images/mariadb-symlink.png)
+![img](/images/mariadb-symlink.png)
 
 # CockroachDB Parallel Commit
 
