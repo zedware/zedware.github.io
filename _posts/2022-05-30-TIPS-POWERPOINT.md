@@ -35,7 +35,7 @@ between slides, which should be edited through Transitions menu.
 动画是个很烦人的东西。尤其是页面之间切换时的动画。怎么干掉它们？
 
 
-# Make as final
+# Mark as final
 
 We can protect the presentation by making it read-only or even restricting access.
 An attractive option is "Mark as Final," which can tell us it is a final
