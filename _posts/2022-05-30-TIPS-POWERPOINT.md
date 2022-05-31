@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tips for Microsoft Powerpoint
+title: Tips for Microsoft PowerPoint
 ---
 
 As an Internet-era and Cloud-era engineer, writing presentations with Microsoft
