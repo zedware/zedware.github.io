@@ -8,7 +8,7 @@ I am Wenliang ZHANG (张文亮), a software engineer working on database and sto
 
 ### More Information
 
-Working on database and storage systems, writing code with C, C++, Java etc.
+I have worked on database and storage systems, written code with C, C++, Java etc. for many years.
 
 My random thought series: [AA](https://zedware.github.io/RANDOM-THOUGHT-AA/), [AB](https://zedware.github.io/RANDOM-THOUGHT-AB/), [AC](https://zedware.github.io/RANDOM-THOUGHT-AC/).
 
@@ -21,3 +21,4 @@ My random thought series: [AA](https://zedware.github.io/RANDOM-THOUGHT-AA/), [A
 ### Contact me
 
 [zedware@gmail.com](mailto:zedware@gmail.com)
+
