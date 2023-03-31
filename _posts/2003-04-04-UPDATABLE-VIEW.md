@@ -2,6 +2,7 @@
 layout: post
 title: 可更新视图
 original: https://blog.csdn.net/zedware/article/details/20488069
+tags: sql view
 ---
 
 视图是从一个或多个基表（或视图）导出的表。通常视图仅仅是一个虚表，即数据库中只存放视图的定义信息等元数据，而不存放视图对应的数据。 视图上的操作和基表类似，但是 DBMS对视图的更新操作（INSERT、DELETE、UPDATE）往往存在一定的限制。 DBMS对视图进行的权限管理和基表也有所不同。

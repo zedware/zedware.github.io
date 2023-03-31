@@ -1,6 +1,7 @@
 ---
 layout: post
 title: What's stack overflow?
+tags: stack-overflow
 ---
 
 * * *

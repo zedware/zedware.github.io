@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Random Thoughts AB
+tags: random
 ---
 
 As the title of the blog suggests, this is a collection of random thoughts. Most

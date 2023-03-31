@@ -1,6 +1,7 @@
 ---
 layout: post
 title: PMDK和CACHE FLUSH
+tags: pmdk
 ---
 
 无论是内存还是字节寻址的 NVM，写出的数据都是要先经过 CPU CACHE，然后通过一些 FLUSH 命令将

@@ -3,6 +3,7 @@ layout: post
 title: 介绍Stonebraker和DeWitt教授的文章
 original: https://blog.csdn.net/zedware/article/details/5094852
 ---
+
 *以下引用的两篇文章作者为：David J. DeWitt and Michael Stonebraker* 
 [MapReduce: A major step backwards](http://databasecolumn.vertica.com/database-innovation/mapreduce-a-major-step-backwards/ "MapReduce: A major step backwards")，说明了MapReduce虽然很热也可能很好，但是： 
 1. A giant step backward in the programming paradigm for large-scale data intensive applications  

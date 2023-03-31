@@ -1,6 +1,7 @@
 ---
 layout: post
 title: SQL Rules The World
+tags: sql
 ---
 
 CIDR 2022 has a paper titled "Machine Learning, Linear Algebra, and More: Is SQL

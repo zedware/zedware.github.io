@@ -2,6 +2,7 @@
 layout: post
 title: 重读A Critique of ANSI SQL Isolation Levels
 original: https://blog.csdn.net/zedware/article/details/42399375
+tags: sql
 ---
                 
 A Critique of ANSI SQL Isolation Levels

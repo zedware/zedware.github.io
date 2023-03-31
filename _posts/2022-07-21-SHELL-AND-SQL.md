@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Shell and SQL Make Friends
+tags: sql shell
 ---
 
 The old school guys tend to use Shell scripts for daily operations. Tcl, Perl, Ruby
