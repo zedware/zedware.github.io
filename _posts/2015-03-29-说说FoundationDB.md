@@ -3,6 +3,7 @@ layout: post
 title: 说说FoundationDB
 original: https://blog.csdn.net/zedware/article/details/44729051
 ---
+
 #FoundationDB
 Apple收购了FoundationDB[1]()，而且后者从开源立即变成了闭源。说实话，在此之前都没有注意到还有这么一个DBMS产品[2]()。从官网上看，它的一些设计理念还是比较切合实际的，毕竟分布式DBMS存在很多难以解决的问题，要在短期内做到Oracle等传统RDBMS那样的程度是不现实的。例如它把重点放到了核心特性上，做了取舍[3](),[4]()：
 1. 可扩展性，采用Shared-nothing架构。

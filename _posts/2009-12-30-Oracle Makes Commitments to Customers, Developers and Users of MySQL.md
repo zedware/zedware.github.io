@@ -2,6 +2,7 @@
 layout: post
 title:  Oracle Makes Commitments to Customers, Developers and Users of MySQL
 original: https://blog.csdn.net/zedware/article/details/5102723
+tags: mysql
 ---
 [Oracle Makes Commitments to Customers, Developers and Users of MySQL](http://www.marketwire.com/press-release/Oracle-Corporation-NASDAQ-ORCL-1090000.html)，半个月前，著名的甲骨文受不了欧盟的反垄断折腾了，做出了这么10条承诺。不过我觉得这么写承诺未必有什么实质的意义，也许只是给欧盟个回应，以后并购后该怎么样还是怎么样。虽然Oracle早几年就视MySQL为一个潜在的威胁，使出了釜底抽薪的把戏，购买了MySQL的存储引擎Innobase和BerkeleyDB；但是，经过Sun折腾过一次的MySQL对于Oracle来说还不是并购的主要目的。    
 

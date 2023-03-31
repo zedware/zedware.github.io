@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 '''
 tag_generator.py
@@ -8,6 +8,8 @@ Contact: lqian8@jhu.edu
 
 This script creates tags for your Jekyll blog hosted by Github page.
 No plugins required.
+
+Make sure to run it before git push.
 '''
 
 import glob

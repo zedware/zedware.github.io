@@ -1,6 +1,7 @@
 ---
 layout: post
 title: SQL 数据类型辨析
+tags: sql
 ---
 
 * * *

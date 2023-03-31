@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Ambiguous call to overloaded function
+tags: cplusplus
 ---
 
 * * *

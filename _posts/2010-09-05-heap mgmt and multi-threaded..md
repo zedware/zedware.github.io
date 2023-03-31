@@ -2,6 +2,7 @@
 layout: post
 title: heap mgmt and multi-threaded.
 original: https://blog.csdn.net/zedware/article/details/5865181
+tags: c
 ---
 
 Refereces:

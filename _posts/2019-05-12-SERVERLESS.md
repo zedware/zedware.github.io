@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Serverless 数据库服务
+tags: serverless
 ---
-
 
 Serverless 最适合计算型任务，计算资源可以随时部署、伸缩，免去了繁琐的运维管理。
 这也是为什么 Berkeley 的报告“Cloud Programming Simplified: A Berkeley View on
