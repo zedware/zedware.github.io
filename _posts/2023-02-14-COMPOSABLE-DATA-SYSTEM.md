@@ -4,8 +4,6 @@ title: Composable Data Management System
 tags: composable system
 ---
 
-# Background
-
 2022 年 VLDB 新组织了一个 Workshop，叫做 International Workshop on Composable
 Data Management Systems (CDMS)。CDMS 的目标是让数据库学术界、工业界和用户等一起
 来探讨如何通过可组合性和可复用性来设计数据库系统。第一期的议程<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup>包括:

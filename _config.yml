@@ -56,6 +56,9 @@ url: https://zedware.github.io
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
+# tag_page
+tag_page: "/tag/"
+
 #
 # !! You don't need to change any of the configuration flags below !!
 #
