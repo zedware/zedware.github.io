@@ -13,7 +13,12 @@ layout: default
     <span>[
       {% for tag in page.tags %}
         {% capture tag_name %}{{ tag }}{% endcapture %}
-        <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+				{% if forloop.first %}
+					{% assign padding = '' %}
+				{% else %}
+          {% assign padding = ',&nbsp;' %}
+        {% endif %}   
+        <a href="{{ site.tag_page }}{{ tag_name | replace: ' ', '_' }}"><code class="highligher-rouge"><nobr>{{ padding }}{{ tag_name }}</nobr></code></a>
       {% endfor %}
     ]</span>
   </div>

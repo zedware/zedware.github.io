@@ -2,6 +2,7 @@
 layout: post
 title: 打洞（Punch a hole）：回收存储空间（File、Block以及其他）
 original: https://blog.csdn.net/zedware/article/details/21747885
+tags: [Linux, Punch hole, File System]
 ---
 
 打洞（Hole-punching）这个看起来有点土，容易让人想到“龙生龙凤生凤，老鼠的儿子会打洞”。在虚拟机出现之前，这个问题可能还不太被大家所了解。VM通常会有个很大的文件作为Guest OS的存储，可是你在Guest OS里头删除了很多文件后，这个文件还是占据了很多的空间。怎么让Host文件的文件系统回收掉这些空间呢？如果这些存储是在Amazon这样的地方，占据一堆不用的空间会导致花了冤枉钱。

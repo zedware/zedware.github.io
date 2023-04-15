@@ -2,6 +2,7 @@
 layout: post
 title: A short puzzle about heap expansion
 original: https://blog.csdn.net/zedware/article/details/5547726
+tags: memory
 ---
 https://blogs.msdn.com/oldnewthing/archive/2010/04/29/10004218.aspx
  

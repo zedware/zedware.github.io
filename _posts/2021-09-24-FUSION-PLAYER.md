@@ -1,6 +1,7 @@
 ---
 layout: post
 title: VMware Fusion Player for macOS
+tags: VM macOS
 ---
 
 VMware Workstation is powerful for desktop virtualization. And the macOS version is now free for personal usage. Followed is the steps to register, download and install.

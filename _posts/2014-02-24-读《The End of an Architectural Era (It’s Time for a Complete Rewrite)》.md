@@ -2,6 +2,7 @@
 layout: post
 title: 读《The End of an Architectural Era (It’s Time for a Complete Rewrite)》
 original: https://blog.csdn.net/zedware/article/details/19846955
+tags: DBMS
 ---
 
 这是Stonebraker等发表在VLDB ’07, September 23-28, 2007, Vienna, Austria的一篇文章。看起来引用率还很高：

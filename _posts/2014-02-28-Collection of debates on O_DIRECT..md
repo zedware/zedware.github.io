@@ -2,6 +2,7 @@
 layout: post
 title: Collection of debates on O_DIRECT
 original: https://blog.csdn.net/zedware/article/details/20161041
+tags: [Linux, O_DIRECT, File System]
 ---
 
 看看各种不同角色的讨论，还是有点意思的。先从 Linus 的这个开始：[O_DIRECT

@@ -2,7 +2,7 @@
 layout: post
 title: Oracle与MySQL中“可串行化”的对比测试
 original: https://blog.csdn.net/zedware/article/details/5529389
-tags: MySQL Oracle
+tags: MySQL Oracle ACID
 ---
 
 Thomas Kyte （Oracle 世界中那个著名的 Tom）在“Oracle 9i&10g编程艺术”一书中为了说明事务的隔离级别，提供了一些例子。这里我们来看看“可串行化”级别下的表现。

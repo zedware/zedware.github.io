@@ -19,9 +19,16 @@ layout: default
 
     <li>
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | markdownify | remove: '<p>' | remove: '</p>' }} ({{ post.date | date: "%Y-%m-%d" }})</a>
-      {% for post_tag in post.tags | sort %}
-        <a href="{{ site.baseurl }}{{ site.tag_page }}{{ post_tag | slugify: 'pretty' | uri_escape }}" class="post-tag">{{ post_tag | slugify: 'pretty' | escape }}</a>
+     <span>[
+      {% for tag in post.tags | sort %}
+        {% if forloop.first %}
+          {% assign padding = '' %}
+        {% else %}
+          {% assign padding = ',&nbsp;' %}
+        {% endif %}  
+        <a href="{{ site.baseurl }}{{ site.tag_page }}{{ tag | replace: ' ', '_' }}" class="post-tag">{{ padding }}{{ tag }}</a>
       {% endfor %}
+      ]</span>
     </li>
   {% endfor %}
   {% unless lastmonth == '' %} </ul> {% endunless %}

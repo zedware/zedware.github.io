@@ -8,13 +8,20 @@ Contact: lqian8@jhu.edu
 
 This script creates tags for your Jekyll blog hosted by Github page.
 No plugins required.
+'''
+
+'''
+Revised by zedware.
 
 Sample tags lines:
 
-tags: [tag1, tag2, tag3.1 tag3.2]
-tags: tag1 tag2
+tags: [tag1, tag2, tag3.1 tag3.2]		# if the tag contains spaces.
+tags: tag1 tag2                     # the tag has no spaces.
 
-Make sure to run it before git push.
+The tags are case-sensitive. Be careful when write code in pages.
+The jekyll variables, tags, and filters: https://cloudcannon.com/cheat-sheets/jekyll/
+
+Make sure to run this python script before git push.
 '''
 
 import glob

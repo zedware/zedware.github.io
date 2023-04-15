@@ -2,6 +2,7 @@
 layout: post
 title: Optimizing the Linux kernel for Database?
 original: https://blog.csdn.net/zedware/article/details/6169265
+tags: Linux DBMS
 ---
 
 Oracle is now a big player in the Linux community. Vetical integration is a trend in the computer world.

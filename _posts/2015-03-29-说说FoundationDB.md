@@ -2,6 +2,7 @@
 layout: post
 title: 说说FoundationDB
 original: https://blog.csdn.net/zedware/article/details/44729051
+tags: FoundationDB DBMS
 ---
 
 #FoundationDB

@@ -2,6 +2,7 @@
 layout: post
 title: Different ways to get the symbol name and ...
 original: https://blog.csdn.net/zedware/article/details/20306143
+tags: cplusplus C
 ---
 
 万一你拿到 callstack 的是一堆的地址，不用担心，只要你有符号信息，就可以用这些命令恢复出熟悉的样子了。

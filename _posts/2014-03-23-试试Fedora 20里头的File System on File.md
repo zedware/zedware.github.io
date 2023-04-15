@@ -2,6 +2,7 @@
 layout: post
 title: 试试Fedora 20里头的File System on File
 original: https://blog.csdn.net/zedware/article/details/21884243
+tags: [Linux, FSoF, File System]
 ---
                 
 Create a file to host the fs.  Can also use dd here instead of truncate.

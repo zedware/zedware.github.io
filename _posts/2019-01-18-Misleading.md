@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 数据库和存储领域一些容易混淆的概念和术语
+tags: DBMS
 ---
 
 Keywords: TPS/QPS, tpmC/tpm, Raft/Paxos, Distributed Transaction, Write Amplification, OLAP/HTAP, Commodity Hardware/High-end Storage

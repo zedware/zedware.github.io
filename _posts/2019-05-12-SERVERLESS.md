@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Serverless 数据库服务
-tags: Serverless
+tags: Serverless DBMS
 ---
 
 Serverless 最适合计算型任务，计算资源可以随时部署、伸缩，免去了繁琐的运维管理。

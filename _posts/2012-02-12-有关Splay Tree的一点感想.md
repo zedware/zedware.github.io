@@ -2,6 +2,7 @@
 layout: post
 title: 有关Splay Tree的一点感想
 original: https://blog.csdn.net/zedware/article/details/7253327
+tags: [Splay Tree]
 ---
 
 Splay Tree是一种有趣的Binary Search Tree。Wikipedia说它的缺点为：

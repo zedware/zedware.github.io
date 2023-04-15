@@ -2,6 +2,7 @@
 layout: post
 title: 优雅的cancel一个pthread线程
 original: https://blog.csdn.net/zedware/article/details/22213427
+tags: thread C cplusplus
 ---
 
 这是一个基本的问题。仔细看看man pages，应该就可以理解其中的道理。不过我看到的几个man pages的详略程度有所不同。关键的函数是pthread_cleanup_push()和pthread_cleanup_pop()以及由此衍生出来的xxx_np（不可移植版本）。

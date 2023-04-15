@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Vector Search and Vector Database
-tags: Vector DBMS
+tags: Vector DBMS Search
 ---
 
 向量搜索在搜索、推荐、NLP 等众多应用领域被广泛的使用，典型的互联网业务，包括电商、
