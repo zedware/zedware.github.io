@@ -2,6 +2,7 @@
 layout: post
 title: How to install NetWorker on Linux?
 original: https://blog.csdn.net/zedware/article/details/7251614
+tags: Linux NetWorker
 ---
 
 NetBackup和NetWorker是两个主要的企业级备份软件，相比桌面上的软件，安装和使用都有点麻烦。这里采用的是一个x86 32bit的NetWorker试用版本。安装/启动GUI的过程中可能会出现一些小问题，如果不幸遇到了，那就一一解决吧。我曾经遇到过Sybase、Java等各模块的问题，通过分析log文件和查找支持文档，最终都解决了。

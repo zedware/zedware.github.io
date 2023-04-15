@@ -2,6 +2,7 @@
 layout: post
 title: DLL hell again - this time on Linux
 original: https://blog.csdn.net/zedware/article/details/6189219
+tags: Linux
 ---
 
 突然发现Fedora中的yum不好使了，一执行就报错，说什么不能import某某库。

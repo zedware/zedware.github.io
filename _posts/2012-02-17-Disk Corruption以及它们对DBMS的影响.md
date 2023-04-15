@@ -2,6 +2,7 @@
 layout: post
 title: Disk Corruption以及它们对DBMS的影响
 original: https://blog.csdn.net/zedware/article/details/7269074
+tags: DBMS
 ---
 
 众所周知，软硬件都有不靠谱的时候。可问题是一般人很难获取这些系统在实际使用中的故障率。作为这些产品的生厂商，一般都有一些方法来获取实际安装部署以及运行的情况，自然的，它们也掌握了很多实际的故障数据（不过它们未必会如实公开）。对于那些故障率不太高的情形，只有在安装部署的数量特别大时，才可能捕获到较大的故障出现次数。An Analysis of Data Corruption in the Storage Stack分析了存储系统中的Data Corruption：

@@ -2,6 +2,7 @@
 layout: post
 title: VMware Virtual Volume - vVol
 original: https://blog.csdn.net/zedware/article/details/22441709
+tags: VM vVol
 ---
 
 Virtual volume在两年前还是很火热的概念，例如：http://blogs.vmware.com/vsphere/2012/10/virtual-volumes-vvols-tech-preview-with-video.html . 可是2013年的VMware大会上就没有那么多消息了，例如：http://www.networkcomputing.com/storage-networking-management/vmware-gets-real-about-virtual-storage/240161026 . 当然也不会彻底销声匿迹：http://virtualgeek.typepad.com/virtual_geek/2013/08/vmworld-2013-vvol-update-and-vm-granular-storagenow.html . 2014年到处是VSAN。

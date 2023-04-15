@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 事务的隔离级别（Transaction Isolation Level）
-tags: SQL
+tags: SQL ACID
 ---
 
 事务隔离级别是对事务之间的隔离性作出的一个度量。它通常以下面的几个现象进行考察。注意这些现象都是从读的角度来分析的，即分析写操作对读操作的影响。

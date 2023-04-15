@@ -2,6 +2,7 @@
 layout: post
 title: Build distcc from source code
 original: https://blog.csdn.net/zedware/article/details/6153307
+tags: C cplusplus
 ---
 
 distcc is a useful tool to speed up the build. We can dowload it from:

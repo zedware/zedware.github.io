@@ -2,7 +2,7 @@
 layout: post
 title: Berkeley DB设计经验
 original: https://blog.csdn.net/zedware/article/details/7870754
-tags: [Berkeley DB]
+tags: [Berkeley DB, DBMS]
 ---
 
 很久没有做翻译这种苦力活了，这是断断续续折腾了好久周的结果 - [http://www.ituring.com.cn/article/details/8111](http://www.ituring.com.cn/article/details/8111)

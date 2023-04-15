@@ -2,6 +2,7 @@
 layout: post
 title: Quick reference for Fedora Core 13's installation on VMware 6.5
 original: https://blog.csdn.net/zedware/article/details/5899759
+tags: Linux VM
 ---
 
 记性没有以前那么好了，什么都能记住。想起来读书时的一句话“好记性不如烂笔头”。还是将遇到的小问题都记录下来吧，免得日后又来折腾。

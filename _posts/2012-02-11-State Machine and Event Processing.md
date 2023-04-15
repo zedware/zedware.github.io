@@ -2,6 +2,7 @@
 layout: post
 title: State Machine and Event Processing
 original: https://blog.csdn.net/zedware/article/details/7251583
+tags: [State Machine]
 ---
 
 列了个提纲，一直没有写完。
