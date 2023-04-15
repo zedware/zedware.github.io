@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: duckdb"
-tag: duckdb
+title: "Tag: DuckDB"
+tag: DuckDB
 robots: noindex
 ---

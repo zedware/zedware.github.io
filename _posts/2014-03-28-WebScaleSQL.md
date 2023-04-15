@@ -2,7 +2,7 @@
 layout: post
 title: Facebook, Google, Twitter, Linkedin推出了WebScaleSQL
 original: https://blog.csdn.net/zedware/article/details/22438293
-tags: mysql
+tags: MySQL
 ---
 
 名字看起来很可怕的样子：Web Scale。实际是基于Oracle的社区版本MySQL 5.6做的，加了一些工具和补丁。先看看这个新闻：

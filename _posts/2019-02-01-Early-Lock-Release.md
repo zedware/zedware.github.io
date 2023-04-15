@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Early Lock Release
-tags: mysql innodb
+tags: MySQL InnoDB
 ---
 
 Early lock release is a famous optimization in database field, and it was mentioned in recent papers (again) on performance improvement. This blog writes up the basic idea of ELR, and the pratice in MySQL/InnoDB world. Finally, it provides more interesting references on the topic.

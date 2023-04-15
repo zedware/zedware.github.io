@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: oracle"
-tag: oracle
+title: "Tag: OLAP"
+tag: OLAP
 robots: noindex
 ---

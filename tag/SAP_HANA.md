@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: mdac"
-tag: mdac
+title: "Tag: SAP HANA"
+tag: SAP HANA
 robots: noindex
 ---

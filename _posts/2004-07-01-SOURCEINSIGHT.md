@@ -2,7 +2,7 @@
 layout: post
 title: 在SourceInsight中集成版本管理工具
 original: https://blog.csdn.net/zedware/article/details/20487555
-tags: source-insight
+tags: [SourceInsight]
 ---
 
     SourceInsight是一个功能强大的源码阅读和编辑工具，它也支持用户自定义的命令。我们可以选取主菜单中的“View”->“Toolbars”中的“Source Control”和“Build”以便显示版本管理和构建工具栏。

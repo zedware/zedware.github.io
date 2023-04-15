@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Performance, tips and traps
-tags: perf
+tags: perf DBMS
 ---
 
 Performance improvement is a hot topic and companies like to promote

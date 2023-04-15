@@ -2,7 +2,7 @@
 layout: post
 title: MySQL thread pool
 original: https://blog.csdn.net/zedware/article/details/18862813
-tags: mysql
+tags: MySQL
 ---
 
 ### 这是 Oracle MySQL 的实现：http://mikaelronstrom.blogspot.com/2011/10/mysql-thread-pool-summary.html

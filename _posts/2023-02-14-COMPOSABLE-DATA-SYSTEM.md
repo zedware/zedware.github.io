@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Composable Data Management System
-tags: composable system
+tags: [Composable System, DBMS]
 ---
 
 2022 年 VLDB 新组织了一个 Workshop，叫做 International Workshop on Composable

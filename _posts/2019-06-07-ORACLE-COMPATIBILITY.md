@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 漫谈 Oracle 兼容
-tags: oracle
+tags: Oracle
 ---
 
 做数据库产品有很多种可能的做法[N种套路](https://zedware.github.io/Design)。不管是完全从头开始，还是站在巨人的肩膀上演化都是

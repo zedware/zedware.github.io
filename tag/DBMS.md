@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: mysql"
-tag: mysql
+title: "Tag: DBMS"
+tag: DBMS
 robots: noindex
 ---

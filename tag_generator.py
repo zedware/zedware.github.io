@@ -9,6 +9,11 @@ Contact: lqian8@jhu.edu
 This script creates tags for your Jekyll blog hosted by Github page.
 No plugins required.
 
+Sample tags lines:
+
+tags: [tag1, tag2, tag3.1 tag3.2]
+tags: tag1 tag2
+
 Make sure to run it before git push.
 '''
 

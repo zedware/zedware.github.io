@@ -2,7 +2,7 @@
 layout: post
 title: MySQL将会像BSD、Linux那样弄出不同的分支和发行版？
 original: https://blog.csdn.net/zedware/article/details/5015062
-tags: mysql
+tags: MySQL
 ---
 
     从用户的角度看，MySQL被Sun收购，又被Oracle收购可能真不是什么好事。MySQL本来就被Oracle通过并购其依赖的存储引擎Innobase、BerkeleyDB折腾的不行，又在被Sun收购后发生了[Monty创建新分支MariaDB](http://askmonty.org/wiki/index.php/MariaDB)这样的事情，最终还是随着Sun一起被Oracle并购，没有逃脱Larry Elison的魔爪。也许，开源软件的好处就在于选择比较多，可以适合不同人的口味，而且你觉得不合适的，自己就可以去做些改造。不过对于普通的用户甚至开发者而言，选择太多了也不见得是什么好事——会弄得无所适从，不知道身在何处。

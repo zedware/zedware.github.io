@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: influxdb"
-tag: influxdb
+title: "Tag: InnoDB"
+tag: InnoDB
 robots: noindex
 ---

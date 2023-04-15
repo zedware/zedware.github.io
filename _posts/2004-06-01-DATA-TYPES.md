@@ -2,7 +2,7 @@
 layout: post
 title: 数据库中的数据类型
 original: https://blog.csdn.net/zedware/article/details/21247193
-tags: sql
+tags: SQL
 ---
 
 数据库中的数据类型通常有很多种，也有不同的分类方法。例如最常见的数值型、字符型、日期时间型，也有不太常见的布尔型、枚举型、集合型等。要在DBMS中实现某种具体数据类型（例如最简单的INTEGER）的支持，我们可以从以下几个方面来考虑。

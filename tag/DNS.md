@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: acid"
-tag: acid
+title: "Tag: DNS"
+tag: DNS
 robots: noindex
 ---

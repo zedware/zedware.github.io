@@ -4,9 +4,6 @@ title: 从FusionIO的NVM压缩接口谈起
 original: https://blog.csdn.net/zedware/article/details/22897161
 ---
 
-
-
-
 厂商的宣传总喜欢搞得很吸引人：Fusion-io宣称可以翻倍MySQL的容量，http://www.zdnet.com/fusion-io-claims-to-double-mysql-capacity-7000027970/。Google一下会出现很多类似的内容。可惜宣传稿只是说可以这样、可以那样，显得很是高大。要想知道得更细一点，还得从基础学起。先看看：https://github.com/opennvm/nvm-primitives/。
 原来F公司搞得Atomic Write还提交到了T10了。这个README写得还是比较清楚的，例如：
 The NVM Primitives library, as described in the API specification, is a lightweight user space

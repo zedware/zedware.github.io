@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: view"
-tag: view
+title: "Tag: CAP"
+tag: CAP
 robots: noindex
 ---
