@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: dns"
-tag: dns
+title: "Tag: Vector"
+tag: Vector
 robots: noindex
 ---

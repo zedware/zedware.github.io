@@ -2,7 +2,7 @@
 layout: post
 title: 自治事务（Autonomous Transaction）
 original: https://blog.csdn.net/zedware/article/details/5521392
-tags: sql
+tags: SQL
 ---
 
     “事务”是一个大家耳熟能详的名词了。事务具有四个基本的特性，我们分别将其称为原子性（Atomic）、一致性（Consistency）、隔离性（Isolation）、持久性（Durability）。统称为ACID。与事务有关的还有“分布式事务”、“超长事务”等正式和非正式的名词。这里要说的是“自治事务”（Autonomous Transaction）。

@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: c"
-tag: c
+title: "Tag: TPC-C"
+tag: TPC-C
 robots: noindex
 ---

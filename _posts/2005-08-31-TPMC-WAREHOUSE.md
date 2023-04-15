@@ -1,7 +1,7 @@
 ---
 layout: post
 title: tpmC per Warehouse in TPC-C
-tags: tpc-c tpmc
+tags: TPC-C tpmC
 ---
 
 As defined in the TPC-C specification, their is an upper bound in the tpmC metric as calculated by the number of warehouses. To get a higher tpmC, vendors have to load more number of warehouses.

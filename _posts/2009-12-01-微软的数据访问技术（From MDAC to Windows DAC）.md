@@ -2,7 +2,7 @@
 layout: post
 title: 微软的数据访问技术（From MDAC to Windows DAC）
 original: https://blog.csdn.net/zedware/article/details/4917233
-tags: mdac
+tags: MDAC
 ---
 
 在过去的很多年中，微软发展了很多种具体的数据访问技术。然而，随着技术的发展和进步，很多技术现在都显得很过时了；有些技术因为被非常广泛的使用，仍然得到了一定程度的维护和支持。10多年前被视为主流的技术，到今天不是被彻底抛弃就是被视为 Legacy 了。这里是微软的：[Data Access Technologies Road Map](http://msdn.microsoft.com/en-us/library/ms810810.aspx)。它的维护历史为：January 2002；Revised December 2008，这也基本说明了最近的这些年中，被称为 MDAC 的这部分技术没有什么实质的发展，而是处于一个维护状态。

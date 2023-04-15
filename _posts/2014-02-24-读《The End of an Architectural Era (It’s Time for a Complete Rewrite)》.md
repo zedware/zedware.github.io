@@ -3,6 +3,7 @@ layout: post
 title: 读《The End of an Architectural Era (It’s Time for a Complete Rewrite)》
 original: https://blog.csdn.net/zedware/article/details/19846955
 ---
+
 这是Stonebraker等发表在VLDB ’07, September 23-28, 2007, Vienna, Austria的一篇文章。看起来引用率还很高：
 ###[**The End of an Architectural Era** - Networks and Mobile Systems - MIT](http://nms.csail.mit.edu/~stavros/pubs/hstore.pdf)
 nms.csail.mit.edu/~stavros/pubs/hstore.pdf‎by M Stonebraker - ‎2007 - ‎[Cited

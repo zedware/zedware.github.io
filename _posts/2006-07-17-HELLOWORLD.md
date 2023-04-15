@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 各种语言写就的“hello world”程序
-tags: hello-world
+tags: [Hello World]
 ---
 
 * * *

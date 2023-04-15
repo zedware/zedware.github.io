@@ -3,6 +3,7 @@ layout: post
 title: State Machine and Event Processing
 original: https://blog.csdn.net/zedware/article/details/7251583
 ---
+
 列了个提纲，一直没有写完。
 1. Introduction
 1.1 What's State Machine

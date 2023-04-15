@@ -3,6 +3,7 @@ layout: post
 title: 有关Splay Tree的一点感想
 original: https://blog.csdn.net/zedware/article/details/7253327
 ---
+
 Splay Tree是一种有趣的Binary Search Tree。Wikipedia说它的缺点为：
 
 Perhaps the most significant disadvantage of splay trees is that the height of a splay tree can be linear. For example, this will be the case after accessing all *n* elements in non-decreasing order. Since the height of a tree corresponds to the worst-case access time, this means that the actual cost of an operation can be slow. However the [amortized](http://en.wikipedia.org/wiki/Amortized "Amortized") access cost of this worst case is logarithmic, O(log *n*). Also, the expected access cost can be reduced to O(log *n*) by using a randomized variant[[2]](http://en.wikipedia.org/wiki/Splay_tree#cite_note-1).
