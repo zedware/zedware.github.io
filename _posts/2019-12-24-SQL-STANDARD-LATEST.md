@@ -10,6 +10,7 @@ of the SQL standard. It also mentions on how to learn the SQL standard, then
 comments on the comformance tests of the SQL standard.
 
 Updated on 2022-09-04, please read [A Critique of SQL, 40 Years Later 08.11.2022](https://carlineng.com/?postid=sql-critique#blog).
+Updated on 2023-04-21, add SQL/GQL. See also [SQL:2023 is finished: Here is what's new](http://peter.eisentraut.org/blog/2023/04/04/sql-2023-is-finished-here-is-whats-new).
 
 # Table of Contents
 
@@ -24,9 +25,9 @@ Updated on 2022-09-04, please read [A Critique of SQL, 40 Years Later 08.11.2022
 
 # VERSION
 
-1.  <https://zedware.github.io/SQL-STANDARD-2019/>
-2.  <https://zedware.github.io/SQL-Standard/>
-3.  <https://zedware.github.io/SQL标准简介/>
+1.  [The latest version(this one)](/SQL-STANDARD-LATEST)
+2.  [The 2019 version](/SQL-Standard)
+3.  [The 2014 version](/SQL标准简介)
 
 
 <a id="orga38e3f1"></a>
@@ -79,12 +80,14 @@ ISO 标准和 ANSI 标准（这两个机构的很多标准是差不多等同的�
 -   2008 年，ISO/IEC 9075:2008，SQL:2008。引入了 TRUNCATE 等。
 -   2011 年，ISO/IEC 9075:2011，SQL:2011。引入了时序数据等。
 -   2016 年，ISO/IEC 9075:2016，SQL:2016。引入了 JSON、RPR、PTF 等。并于 2019 年引入了 MDA。
+-   2023 年，ISO/IEC 9075:2023，SQL:2023。引入了图查询 PGQ，并对 JSON 以及其他 SQL 功能做了修订。
 
 其中，比较新的几个缩写为：
 
 -   RPR = Row Pattern Recognition
 -   PTF = Polymorphic Table Functions
 -   MDA = Multi-dimensional Arrays
+-   PGQ = Property Graph Queries  
 
 细心的读者能发现，从 SQL:1999 开始，标准简称中的短横线（-）被换成了冒号（:），而
 且标准制定的年份也改用四位数字了。前一个修改的原因是 ISO 标准习惯上采用冒号，
@@ -109,9 +112,14 @@ SQL86 大概只有几十页，SQL92 正文大约有 500 页，而 SQL99 则超�
 
 -   ISO/IEC 9075-15: Multi-dimensional arrays (SQL/MDA)
 
-估计在未来几年还会加入更多的部分，例如流数据的处理、图数据的处
-理<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup><sup>, </sup><sup><a id="fnr.3" class="footref" href="#fn.3">3</a></sup>，这样标准的总数将达到史无前例的 11 或 12 个。
+2023 年增加了 SQL/PGQ，总共变成了 11 个部分（暂时还没成为正式标准）。
 
+-   ISO/IEC 9075-16: Property Graph Queries (SQL/PGQ)
+
+其实，标准演进的步伐一直没有停止。2023 年之前就有很多关于流数据的处理、图数据的处理<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup><sup>, </sup><sup><a id="fnr.3" class="footref" href="#fn.3">3</a></sup>。可以预期，不久的将来，SQL 标准的总数还会继续增加。
+
+图数据库产品还在快速发展过程中，学术界和工业界合作发起了 LDBC Benchmark。关于它的进展
+建议参看 LDBC 作者们的演讲视频和论文<sup><a id="fnr.4" class="footref" href="#fn.4">4</a></sup>。
 
 <a id="org8f1f6c4"></a>
 
@@ -120,19 +128,19 @@ SQL86 大概只有几十页，SQL92 正文大约有 500 页，而 SQL99 则超�
 负责具体制定工作的是 ISO 和 IEC 联合成立的一个技术委员会 JTC1/SC32。正因为关系数
 据库市场非常成熟，竞争不够激烈，标准本身变得过于庞大等原因，SQL3 制定的周期很长，
 制定期间也存在很多争议。例如文章 Is SQL a Real Standard Anymore? 就对 SQL 标准化
-进程提出了置疑。WISCorp <sup><a id="fnr.4" class="footref" href="#fn.4">4</a></sup> 网站曾经收集了很多相关的文档，JCC <sup><a id="fnr.5" class="footref" href="#fn.5">5</a></sup>
+进程提出了置疑。WISCorp <sup><a id="fnr.5" class="footref" href="#fn.5">5</a></sup> 网站曾经收集了很多相关的文档，JCC <sup><a id="fnr.6" class="footref" href="#fn.6">6</a></sup>
 网站则提供了比较新的更新。
 
 如果要了解标准的内容，比较推荐的方法是泛读 SQL92（因为它涉及了 SQL 最基础和最核
 心的一些内容），然后增量式的阅读其他标准。标准在每次更新的时候，委员会的成员们都
 为大家提供比较好的介绍文档。例如，针对 SQL:2011，SIGMOD Record 上就有很不错的介
-绍<sup><a id="fnr.6" class="footref" href="#fn.6">6</a></sup>。针对最新的内容，例如 SQL:2016，这里有一个更新<sup><a id="fnr.7" class="footref" href="#fn.7">7</a></sup>，
-这<sup><a id="fnr.8" class="footref" href="#fn.8">8</a></sup>也是一个很好的补充。如果有兴趣，也可以参考这本书“SQL-99 Complete，
-really”<sup><a id="fnr.9" class="footref" href="#fn.9">9</a></sup>。
+绍<sup><a id="fnr.7" class="footref" href="#fn.7">7</a></sup>。针对最新的内容，例如 SQL:2016，这里有一个更新<sup><a id="fnr.8" class="footref" href="#fn.8">8</a></sup>，
+这<sup><a id="fnr.9" class="footref" href="#fn.9">9</a></sup>也是一个很好的补充。如果有兴趣，也可以参考这本书“SQL-99 Complete，
+really”<sup><a id="fnr.10" class="footref" href="#fn.10">10</a></sup>。
 
 大约从 2011 年开始，标准委员会还提供了 SQL Technical Reports，虽然它们不是正式标
-准的一部分，但却非常有助于理解标准。ISO 的这个网页<sup><a id="fnr.1.100" class="footref" href="#fn.1">1</a></sup>提供了技术报告的免费下
-载，注意它们的编号是 19075，而且标题中带 TR 这个缩写词。技术报告已经累计发布了 8
+准的一部分，但却非常有助于理解标准。ISO 的这个网页<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>提供了技术报告的免费下
+载，注意它们的编号是 19075，而且标题中带 TR 这个缩写词。技术报告已经累计发布了 9
 个：
 
 -   ISO/IEC TR 19075-1: XQuery Regular Expression Support in SQL
@@ -143,9 +151,11 @@ really”<sup><a id="fnr.9" class="footref" href="#fn.9">9</a></sup>。
 -   ISO/IEC TR 19075-6: SQL support for JSON
 -   ISO/IEC TR 19075-7: SQL Support for Polymorphic Table Functions
 -   ISO/IEC TR 19075-8: SQL Support for multi dimensional arrays
+-   ISO/IEC TR 19075-9: Online analytic processing (OLAP) capabilities
+-   ISO/IEC TR 19075-10: SQL model (Under development)
 
-坚持跟踪 SQL 标准以及它在不同产品中的实现情况的网站很少，modern SQL <sup><a id="fnr.10" class="footref" href="#fn.10">10</a></sup>
-其中优秀的代表。
+坚持跟踪 SQL 标准以及它在不同产品中的实现情况的网站很少，Modern SQL <sup><a id="fnr.11" class="footref" href="#fn.11">11</a></sup>
+是其中优秀的代表。
 
 
 <a id="orgf4e50e4"></a>
@@ -163,12 +173,12 @@ MySQL 等开源产品总体上对 SQL 标准的符合程度较高以外，很多
 分级的，包括入门级、过渡级、中间级和完全级）。
 
 为了验证具体的产品对标准的遵从程度，NIST 还曾经专门发起了一个项目，来做标准符合
-程度的测试集合<sup><a id="fnr.11" class="footref" href="#fn.11">11</a></sup>。不过，SQL 标准包含的内容实在太多了，而且有很多特性对新
+程度的测试集合<sup><a id="fnr.12" class="footref" href="#fn.12">12</a></sup>。不过，SQL 标准包含的内容实在太多了，而且有很多特性对新
 的 SQL 产品而言也越来越不重要了。从 SQL99 之后，标准中符合程度的定义就不再分级，
 而是改成了核心兼容性和特性兼容性；也没有机构来推出权威的 SQL 标准符合程度的测试
 认证了。开源的 MySQL 曾经在 6.0 的开发过程中试图大幅度改善对 SQL 标准的符合程度，
 不过后来似乎不了了之了。国产数据库作为数据库领域的后来者，曾经对标准的符合程度非
-常重视，还组织了专门的机构来做产品的标准符合性测试。在数据库百科全书<sup><a id="fnr.12" class="footref" href="#fn.12">12</a></sup>中
+常重视，还组织了专门的机构来做产品的标准符合性测试。在数据库百科全书<sup><a id="fnr.13" class="footref" href="#fn.13">13</a></sup>中
 也有很多有关标准的章节。
 
 
@@ -180,21 +190,23 @@ MySQL 等开源产品总体上对 SQL 标准的符合程度较高以外，很多
 
 <sup><a id="fn.3" href="#fnr.3">3</a></sup> <https://drive.google.com/file/d/1nQXzl7u5eU0iu8s1Q7ZdBSLuPGBxjZWF/view>
 
-<sup><a id="fn.4" href="#fnr.4">4</a></sup> <https://www.wiscorp.com/free_downloads.html>
+<sup><a id="fn.4" href="#fnr.4">4</a></sup> <https://fosdem.org/2023/schedule/event/graph_ldbc/>
 
-<sup><a id="fn.5" href="#fnr.5">5</a></sup> <http://www.jcc.com/resources/sql-standards>
+<sup><a id="fn.5" href="#fnr.5">5</a></sup> <https://www.wiscorp.com/free_downloads.html>
 
-<sup><a id="fn.6" href="#fnr.6">6</a></sup> <http://www.sigmod.org/publications/sigmod-record/1203/pdfs/10.industry.zemke.pdf>
+<sup><a id="fn.6" href="#fnr.6">6</a></sup> <http://www.jcc.com/resources/sql-standards>
 
-<sup><a id="fn.7" href="#fnr.7">7</a></sup> <https://s3.amazonaws.com/artifacts.opencypher.org/website/materials/SQLStandards_2017-10-20.pdf>
+<sup><a id="fn.7" href="#fnr.7">7</a></sup> <http://www.sigmod.org/publications/sigmod-record/1203/pdfs/10.industry.zemke.pdf>
 
-<sup><a id="fn.8" href="#fnr.8">8</a></sup> <https://modern-sql.com/blog/2017-06/whats-new-in-sql-2016>
+<sup><a id="fn.8" href="#fnr.8">8</a></sup> <https://s3.amazonaws.com/artifacts.opencypher.org/website/materials/SQLStandards_2017-10-20.pdf>
 
-<sup><a id="fn.9" href="#fnr.9">9</a></sup> <https://crate.io/docs/sql-99/en/latest/>
+<sup><a id="fn.9" href="#fnr.9">9</a></sup> <https://modern-sql.com/blog/2017-06/whats-new-in-sql-2016>
 
-<sup><a id="fn.10" href="#fnr.10">10</a></sup> <https://modern-sql.com/standard>
+<sup><a id="fn.10" href="#fnr.10">10</a></sup> <https://crate.io/docs/sql-99/en/latest/>
 
-<sup><a id="fn.11" href="#fnr.11">11</a></sup> <http://itl.nist.gov/div897/ctg/sql_form.htm>
+<sup><a id="fn.11" href="#fnr.11">11</a></sup> <https://modern-sql.com/standard>
 
-<sup><a id="fn.12" href="#fnr.12">12</a></sup> <http://mall.cnki.net/reference/detail_R201109078.html>
+<sup><a id="fn.12" href="#fnr.12">12</a></sup> <http://itl.nist.gov/div897/ctg/sql_form.htm>
+
+<sup><a id="fn.13" href="#fnr.13">13</a></sup> <http://mall.cnki.net/reference/detail_R201109078.html>
 
