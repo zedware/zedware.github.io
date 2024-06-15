@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PMDK 及其应用场景
-tags: PMDK
+tags: PMDK NVM
 ---
 
 PMDK 的全称是 Persistent Memory Development Kit，它包含了 Intel 开发的一系列旨在

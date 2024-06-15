@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 数据库与新硬件技术
-tags: DBMS
+tags: DBMS NVM
 ---
 
 数据库技术的发展依靠两大类动力：1. 应用需求的牵引力，2. 新硬件产品的推动力。最近
