@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+python3 tag_generator.py
+git add .
+
