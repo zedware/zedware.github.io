@@ -1,11 +1,8 @@
 ---
 layout: post
-title: The Vibe Coding Revolution
+title: The Vibe Coding Revolution: Developing the Tokenizer Webapp
 tags: [Vibe Coding, Claude Code, Google Gemini]
 ---
-
-## The Vibe Coding Revolution: Developing the Tokenizer Webapp
-## “氛围编程”的革命：Tokenizer Webapp 的开发启示
 
 **本文中除了这段话之外的所有内容都由 Google Gemini 产生；最近写的代码，包括 Tokenizer 等的绝大部份也都是由 Claude Code + LLM 完成。难道人类的文章写作和代码写作都将要成为古董或艺术或自娱自乐？**
 
