@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 此NULL非彼NULL
-tags: SQL NULL
+tags: [SQL, NULL]
 ---
 
 * * *

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Slient Data Corruption
-tags: SDC CPU GPU
+tags: [SDC, CPU, GPU]
 ---
 
 Many of us have encountered the errors of storage media, including the slient data corruptions, but slient data errors of CPU are much less common. I have only heard about it in classes, seen it in techinical reports or papers. Although xPUs other than CPU are more error-prone, HPC and LLM can tolerate it since they can start from checkpoints when errors occurred. If we use xPUs to do data storage and data analysis, the damages caused by SDC will be much worse.

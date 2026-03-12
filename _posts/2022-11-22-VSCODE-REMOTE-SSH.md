@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Visual Studio Code Remote SSH
-tags: vscode
+tags: [vscode]
 ---
 
 This is a sad story. Someone removed my home dir on the development rig,

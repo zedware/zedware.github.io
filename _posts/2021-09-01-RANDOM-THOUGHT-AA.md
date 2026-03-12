@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Random Thoughts AA
-tags: random
+tags: [random]
 ---
 
 As the title of the blog suggests, this is a collection of random thoughts. Most
