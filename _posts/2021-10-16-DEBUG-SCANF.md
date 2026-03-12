@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Debugging the Infinite Loop of Scanf
-tags: C
+tags: [C]
 ---
 
 Somebody wrote a program \`test-scanf.c', and found it loop forever.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: An Introduction to SQL Standard (UPDATED)
-tags: SQL
+tags: [SQL]
 ---
 
 This is a brief introduction to SQL standard written in simplified Chinese. It

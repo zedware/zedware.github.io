@@ -2,7 +2,7 @@
 layout: post
 title: Collections of Data Deduplication Links
 original: https://blog.csdn.net/zedware/article/details/6225162
-tags: Dedup
+tags: [Dedup]
 ---
 
 1. 入门
