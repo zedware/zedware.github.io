@@ -1,8 +1,7 @@
 ---
-title: "Fixing WSL2 Network Bottlenecks: A Clean Guide for Proxying Apt and SSH Git Clone"
+title: "A Clean Guide for Proxying Apt and SSH Git Clone in WSL2 Linux"
 date: 2026-06-20
-author: "Wenliang Zhang"
-tags: [WSL, Ubuntu, Proxy]
+tags: [WSL, Google Gemini]
 ---
 
 If you run a local proxy on a Windows host machine and develop inside a WSL2 (Windows Subsystem for
