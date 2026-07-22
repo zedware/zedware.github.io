@@ -1,6 +1,6 @@
 ---
+layout: post
 title: "A Clean Guide for Proxying Apt and SSH Git Clone in WSL2 Linux"
-date: 2026-06-20
 tags: [WSL, Google Gemini]
 ---
 
